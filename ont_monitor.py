@@ -210,7 +210,7 @@ def main():
         except Exception as e:
             print(f"Critical Error in loop: {e}")
         
-        print("Waiting 2 minutes...")
+        print("Waiting 1 minutes...")
         time.sleep(60)
 
 

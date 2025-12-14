@@ -10,7 +10,7 @@ TARGETS = [
     ("facebook.com", 443),
 ]
 
-CONNECTIONS = 15000        # AsyncIO allows high concurrency
+CONNECTIONS = 2000        # AsyncIO allows high concurrency
 DOWNLOAD_BYTES = 1024*100  # per connection
 RUN_TIME = 600            # seconds
 
